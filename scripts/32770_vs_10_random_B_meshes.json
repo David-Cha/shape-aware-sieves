@@ -1,0 +1,94 @@
+{
+  "name": "32770_vs_10_random_B_meshes",
+  "simulation_scale": 0.01,
+  "meshes_A": [
+    {
+      "filename": "32770.stl",
+      "fabrication_scale": 0.8774684653083415,
+      "fabrication_offset": 1.0
+    }
+  ],
+  "meshes_B": [
+    {
+      "filename": "100732.stl",
+      "fabrication_scale": 4.84806120699348,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "472177.stl",
+      "fabrication_scale": 0.28228629238503045,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "75101.stl",
+      "fabrication_scale": 2.053415680318334,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "104968.stl",
+      "fabrication_scale": 1.1852172934507026,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "130037.stl",
+      "fabrication_scale": 0.45353718950109273,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "98940.stl",
+      "fabrication_scale": 0.4966329781027096,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "1505135.stl",
+      "fabrication_scale": 0.4636615995109956,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "1018276.stl",
+      "fabrication_scale": 0.6796124517712517,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "106786.stl",
+      "fabrication_scale": 1.8166274770031023,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "95499.stl",
+      "fabrication_scale": 1.2197555338437875,
+      "fabrication_offset": null
+    }
+  ],
+  "meshes_A_winning_rot_vecs": null,
+  "mesh_A_opt_num_posns": 10,
+  "mesh_A_fill_soft_mask_holes": true,
+  "mesh_B_opt_num_posns": 10,
+  "mesh_B_opt_posn_trans_bounds": [
+    -0.1,
+    0.1
+  ],
+  "mesh_B_opt_use_area_proportion": true,
+  "mesh_B_opt_vtx_out_of_bounds_loss_weight": 1000.0,
+  "mesh_B_opt_iters": 100,
+  "mesh_B_opt_learning_rate": 0.05,
+  "mesh_A_pso_c1": 0.25,
+  "mesh_A_pso_c2": 0.25,
+  "mesh_A_pso_w": 0.5,
+  "mesh_A_pso_iters": 10,
+  "proj_A_pso_c1": 0.05,
+  "proj_A_pso_c2": 0.05,
+  "proj_A_pso_w": 0.5,
+  "proj_A_pso_iters": 10,
+  "pso_verbose": true,
+  "image_shape": [
+    128,
+    128
+  ],
+  "sieve_side_length": 80.0,
+  "sieve_thickness": 60.0,
+  "sieve_resolution": [
+    1024,
+    1024
+  ]
+}

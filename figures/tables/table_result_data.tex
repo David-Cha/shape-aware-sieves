@@ -1,0 +1,42 @@
+\begin{tabular}{lllllll}
+\toprule
+Result & A meshes & B meshes & Optimization time & Winner declaration time & Final losses per B mesh & A\_wins \\
+\midrule
+37111\_multi\_B & Fig.~\ref{fig:one-a-many-b} (top) & 37111.stl & 37009.stl, 37415.stl & 902.0 & 415.9 & 0.168, 0.077 & Y \\
+37731\_vs\_37730 & Fig.~\ref{fig:optimization-thinks-b-is-blocked-but-it-isnt} & 37731.stl & 37730.stl & 317.1 & 146.5 & 0.001 & N \\
+38631\_vs\_39880 & Fig.~\ref{fig:one-a-one-b} (third) & 38631.stl & 39880.stl & 273.2 & 122.0 & 0.037 & Y \\
+39930\_vs\_39925 & Fig.~\ref{fig:one-a-one-b} (fourth) & 39930.stl & 39925.stl & 222.9 & 19.4 & 0.044 & Y \\
+41729\_vs\_964933 & Fig.~\ref{fig:one-a-one-b-b-wins} (first) & 41729.stl & 964933.stl & 54.1 & 16.2 & 0.000 & N \\
+45550\_vs\_79239 & Fig.~\ref{fig:one-a-one-b-b-wins} (second) & 45550.stl & 79239.stl & 1691.3 & 754.6 & 0.000 & N \\
+46665\_vs\_100139 & Fig.~\ref{fig:num-adam-iterations-ablation} (bottom) & 46665.stl & 100139.stl & 78.7 & 31.4 & 0.020 & Y \\
+46665\_vs\_100139\_less\_B\_opt\_iters & Fig.~\ref{fig:num-adam-iterations-ablation} (top) & 46665.stl & 100139.stl & 11.2 & 60.2 & 0.000 & N \\
+46665\_vs\_46665\_long & Fig.~\ref{fig:conundrum} (top) & 46665.stl & 46665\_long.stl & 54.9 & 19.6 & 0.270 & Y \\
+46665\_vs\_46665\_long\_and\_100139 & Fig.~\ref{fig:conundrum} (bottom) & 46665.stl & 46665\_long.stl, 100139.stl & 121.4 & 54.0 & 0.108, 0.000 & N \\
+62526\_cut\_vs\_62526 & Fig.~\ref{fig:num-b-initializations-ablation} (bottom) & 62526\_cut.stl & 62526.stl & 352.1 & 149.3 & 0.030 & Y \\
+62526\_cut\_vs\_62526\_3\_B\_inits & Fig.~\ref{fig:num-b-initializations-ablation} (top) & 62526\_cut.stl & 62526.stl & 115.0 & 151.6 & 0.000 & N \\
+62860\_vs\_cube\_hole\_filling\_off & Fig.~\ref{fig:hole-filling} (left) & 62860.stl & cube.stl & 30.4 & 10.0 & 0.345 & Y \\
+62860\_vs\_cube\_hole\_filling\_on & Fig.~\ref{fig:hole-filling} (right) & 62860.stl & cube.stl & 27.6 & 9.8 & 0.000 & N \\
+67223\_vs\_591211 & Fig.~\ref{fig:step-by-step-optimization-figure} & 67223.stl & 591211.stl & 63.6 & 27.7 & 0.017 & Y \\
+67856\_vs\_131500 & Fig.~\ref{fig:fabricated-results} (first) & 67856.stl & 131500.stl & 845.7 & 367.1 & 0.000 & N \\
+69079\_cut\_vs\_69079 & Fig.~\ref{fig:pso-particle-count-ablation} (bottom) & 69079\_cut.stl & 69079.stl & 176.7 & 45.9 & 0.031 & Y \\
+69079\_cut\_vs\_69079\_5\_particles & Fig.~\ref{fig:pso-particle-count-ablation} (top) & 69079\_cut.stl & 69079.stl & 53.7 & 48.5 & 0.000 & N \\
+80597\_vs\_83229 & Fig.~\ref{fig:one-a-one-b-b-wins} (third) & 80597.stl & 83229.stl & 1805.5 & 788.9 & 0.000 & N \\
+293457\_vs\_293453 & Fig.~\ref{fig:one-a-one-b-b-wins} (fourth) & 293457.stl & 293453.stl & 1118.6 & 494.9 & 0.000 & N \\
+296802\_vs\_296803 & Fig.~\ref{fig:similar-machine-parts} (top) & 296802.stl & 296803.stl & 148.7 & 44.4 & 0.013 & Y \\
+296803\_vs\_296802 & Fig.~\ref{fig:similar-machine-parts} (bottom) & 296803.stl & 296802.stl & 233.2 & 36.8 & 0.006 & Y \\
+arch\_vs\_rect\_prism & Fig.~\ref{fig:num-pso-iterations-ablation} (bottom) & arch.stl & rect\_prism.stl & 23.4 & 10.3 & 0.021 & Y \\
+arch\_vs\_rect\_prism\_less\_PSO\_iters & Fig.~\ref{fig:num-pso-iterations-ablation} (top) & arch.stl & rect\_prism.stl & 9.4 & 9.9 & 0.000 & N \\
+bowtie\_vs\_sphere & Fig.~\ref{fig:hole-offsetting} (right) & bowtie.stl & sphere.stl & 29.8 & 11.5 & 0.193 & Y \\
+bowtie\_vs\_sphere\_no\_offset & Fig.~\ref{fig:hole-offsetting} (left) & bowtie.stl & sphere.stl & 24.4 & 11.5 & 0.212 & Y \\
+cat\_multi\_B & Fig.~\ref{fig:teaser} & cat9\_fixed.stl & cat1\_fixed.stl, cat3\_fixed.stl, cat4\_fixed.stl & 3956.2 & 1778.5 & 0.012, 0.030, 0.053 & Y \\
+cat9\_vs\_cat6 & Fig.~\ref{fig:one-a-one-b} (second) & cat9\_fixed.stl & cat6\_fixed.stl & 1315.8 & 613.8 & 0.007 & Y \\
+centaur5\_vs\_centaur4 & Fig.~\ref{fig:one-a-one-b} (first) & centaur5.stl & centaur4.stl & 1551.3 & 332.0 & 0.084 & Y \\
+coseg\_chairs\_multi\_A\_multi\_B & Fig.~\ref{fig:fabricated-results} (fifth) & coseg\_chairs\_102.stl, coseg\_chairs\_103.stl, coseg\_chairs\_111.stl & coseg\_chairs\_112.stl, coseg\_chairs\_116.stl, coseg\_chairs\_120.stl & 9410.5 & 878.9 & 0.081, 0.049, 0.046 & Y \\
+coseg\_vases\_multi\_B & Fig.~\ref{fig:one-a-many-b} (bottom) & coseg\_vases\_364.stl & coseg\_vases\_361.stl, coseg\_vases\_365.stl, coseg\_vases\_808.stl & 1978.2 & 891.9 & 0.100, 0.361, 0.280 & Y \\
+david\_multi\_B & Fig.~\ref{fig:fabricated-results} (third) & david6\_fixed.stl & david10\_fixed.stl, david11\_fixed.stl, david13\_fixed.stl & 7547.2 & 3267.4 & 0.141, 0.153, 0.107 & Y \\
+mechanical\_parts\_multi\_A\_multi\_B & Fig.~\ref{fig:fabricated-results} (fourth) & 67523.stl, 67223.stl & 822070.stl, 591211.stl & 2037.7 & 271.5 & 0.032, 0.037 & Y \\
+siggraph\_multi\_A\_multi\_B & Fig.~\ref{fig:fabricated-results} (sixth) & thick\_S.stl, thick\_I.stl, thick\_G.stl & thick\_R.stl, thick\_A.stl, thick\_P.stl, thick\_H.stl & 1981.6 & 118.1 & 0.080, 0.063, 0.050, 0.074 & Y \\
+wizard\_vs\_gargoyle & Fig.~\ref{fig:one-a-one-b} (fifth) & wizard.stl & gargoyle.stl & 9334.0 & 4126.7 & 0.203 & Y \\
+wolf\_multi\_B & Fig.~\ref{fig:fabricated-results} (second) & wolf2.stl & wolf0.stl, wolf1.stl & 878.3 & 204.8 & 0.036, 0.036 & Y \\
+\bottomrule
+\end{tabular}

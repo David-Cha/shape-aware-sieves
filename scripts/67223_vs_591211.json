@@ -1,0 +1,49 @@
+{
+  "name": "67223_vs_591211",
+  "simulation_scale": 0.02,
+  "meshes_A": [
+    {
+      "filename": "67223.stl",
+      "fabrication_scale": 0.5,
+      "fabrication_offset": 1.0
+    }
+  ],
+  "meshes_B": [
+    {
+      "filename": "591211.stl",
+      "fabrication_scale": 1.0,
+      "fabrication_offset": null
+    }
+  ],
+  "meshes_A_winning_rot_vecs": null,
+  "mesh_A_opt_num_posns": 10,
+  "mesh_A_fill_soft_mask_holes": true,
+  "mesh_B_opt_num_posns": 10,
+  "mesh_B_opt_posn_trans_bounds": [
+    -0.1,
+    0.1
+  ],
+  "mesh_B_opt_use_area_proportion": true,
+  "mesh_B_opt_vtx_out_of_bounds_loss_weight": 0,
+  "mesh_B_opt_iters": 100,
+  "mesh_B_opt_learning_rate": 0.05,
+  "mesh_A_pso_c1": 0.25,
+  "mesh_A_pso_c2": 0.25,
+  "mesh_A_pso_w": 0.5,
+  "mesh_A_pso_iters": 10,
+  "proj_A_pso_c1": 0.05,
+  "proj_A_pso_c2": 0.05,
+  "proj_A_pso_w": 0.5,
+  "proj_A_pso_iters": 10,
+  "pso_verbose": true,
+  "image_shape": [
+    256,
+    256
+  ],
+  "sieve_side_length": 80.0,
+  "sieve_thickness": 60.0,
+  "sieve_resolution": [
+    1024,
+    1024
+  ]
+}

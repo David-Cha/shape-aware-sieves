@@ -1,0 +1,144 @@
+{
+  "name": "32770_vs_20_random_B_meshes",
+  "simulation_scale": 0.01,
+  "meshes_A": [
+    {
+      "filename": "32770.stl",
+      "fabrication_scale": 0.8774684653083415,
+      "fabrication_offset": 1.0
+    }
+  ],
+  "meshes_B": [
+    {
+      "filename": "100732.stl",
+      "fabrication_scale": 4.759706481982368,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "472177.stl",
+      "fabrication_scale": 0.29038531535789375,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "75101.stl",
+      "fabrication_scale": 1.8828649762185403,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "104968.stl",
+      "fabrication_scale": 1.1514471305970846,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "130037.stl",
+      "fabrication_scale": 0.5262963065329699,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "98940.stl",
+      "fabrication_scale": 0.5374532605373621,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "1505135.stl",
+      "fabrication_scale": 0.5058552262226067,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "1018276.stl",
+      "fabrication_scale": 0.6561518003047166,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "106786.stl",
+      "fabrication_scale": 2.0343143550491614,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "95499.stl",
+      "fabrication_scale": 1.1246745605017854,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "82380.stl",
+      "fabrication_scale": 10.138684004180393,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "69404.stl",
+      "fabrication_scale": 0.7314160493439442,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "129894.stl",
+      "fabrication_scale": 67.43089755891674,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "92065.stl",
+      "fabrication_scale": 2.1210159606745274,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "702421.stl",
+      "fabrication_scale": 0.8442090855117772,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "301923.stl",
+      "fabrication_scale": 0.654570036183584,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "151370.stl",
+      "fabrication_scale": 0.9421378428798878,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "118905.stl",
+      "fabrication_scale": 3.2581309180180478,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "252634.stl",
+      "fabrication_scale": 77.43881769259295,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "44314.stl",
+      "fabrication_scale": 1.05118701061797,
+      "fabrication_offset": null
+    }
+  ],
+  "meshes_A_winning_rot_vecs": null,
+  "mesh_A_opt_num_posns": 10,
+  "mesh_A_fill_soft_mask_holes": true,
+  "mesh_B_opt_num_posns": 10,
+  "mesh_B_opt_posn_trans_bounds": [
+    -0.1,
+    0.1
+  ],
+  "mesh_B_opt_use_area_proportion": true,
+  "mesh_B_opt_vtx_out_of_bounds_loss_weight": 1000.0,
+  "mesh_B_opt_iters": 100,
+  "mesh_B_opt_learning_rate": 0.05,
+  "mesh_A_pso_c1": 0.25,
+  "mesh_A_pso_c2": 0.25,
+  "mesh_A_pso_w": 0.5,
+  "mesh_A_pso_iters": 10,
+  "proj_A_pso_c1": 0.05,
+  "proj_A_pso_c2": 0.05,
+  "proj_A_pso_w": 0.5,
+  "proj_A_pso_iters": 10,
+  "pso_verbose": true,
+  "image_shape": [
+    128,
+    128
+  ],
+  "sieve_side_length": 80.0,
+  "sieve_thickness": 60.0,
+  "sieve_resolution": [
+    1024,
+    1024
+  ]
+}

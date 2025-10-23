@@ -1,0 +1,37 @@
+#!/bin/bash
+
+#SBATCH --account=ostein_1459
+#SBATCH --partition=gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gpus-per-task=v100:1
+#SBATCH --mem=2GB
+#SBATCH --time=1:00:00
+#SBATCH --job-name=create_results_scripts_for_random_meshes
+#SBATCH --output=create_results_scripts_for_random_meshes.out
+
+module purge
+
+eval "$(conda shell.bash hook)"
+conda activate sieves-kaolin
+
+python /home1/jaeyoonc/sieves-kaolin/scripts/create_results_scripts_for_random_meshes.py \
+       32770.stl \
+       10
+
+python /home1/jaeyoonc/sieves-kaolin/scripts/create_results_scripts_for_random_meshes.py \
+       32770.stl \
+       20
+
+python /home1/jaeyoonc/sieves-kaolin/scripts/create_results_scripts_for_random_meshes.py \
+       32770.stl \
+       30
+
+python /home1/jaeyoonc/sieves-kaolin/scripts/create_results_scripts_for_random_meshes.py \
+       32770.stl \
+       40
+
+python /home1/jaeyoonc/sieves-kaolin/scripts/create_results_scripts_for_random_meshes.py \
+       32770.stl \
+       50

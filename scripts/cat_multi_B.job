@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#SBATCH --account=ostein_1459
+#SBATCH --partition=gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gpus-per-task=a40:1
+#SBATCH --mem=16GB
+#SBATCH --time=6:00:00
+#SBATCH --job-name=cat_multi_B
+#SBATCH --output=cat_multi_B.out
+
+module purge
+
+eval "$(conda shell.bash hook)"
+conda activate sieves-kaolin
+
+python /home1/jaeyoonc/sieves-kaolin/scripts/generate_sieve.py /home1/jaeyoonc/sieves-kaolin/scripts/cat_multi_B.json /home1/jaeyoonc/sieves-kaolin/results/cat_multi_B

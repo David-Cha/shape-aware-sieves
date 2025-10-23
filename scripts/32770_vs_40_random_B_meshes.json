@@ -1,0 +1,244 @@
+{
+  "name": "32770_vs_40_random_B_meshes",
+  "simulation_scale": 0.01,
+  "meshes_A": [
+    {
+      "filename": "32770.stl",
+      "fabrication_scale": 0.8774684653083415,
+      "fabrication_offset": 1.0
+    }
+  ],
+  "meshes_B": [
+    {
+      "filename": "100732.stl",
+      "fabrication_scale": 4.528805796153585,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "472177.stl",
+      "fabrication_scale": 0.29884638363260674,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "75101.stl",
+      "fabrication_scale": 1.8099922886827624,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "104968.stl",
+      "fabrication_scale": 1.2332852431658075,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "130037.stl",
+      "fabrication_scale": 0.47739065086066856,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "98940.stl",
+      "fabrication_scale": 0.5069615709149503,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "1505135.stl",
+      "fabrication_scale": 0.5185169780399764,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "1018276.stl",
+      "fabrication_scale": 0.7147991117263495,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "106786.stl",
+      "fabrication_scale": 1.839412659714619,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "95499.stl",
+      "fabrication_scale": 1.2037178023734525,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "82380.stl",
+      "fabrication_scale": 11.775370523320339,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "69404.stl",
+      "fabrication_scale": 0.7365405306974374,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "129894.stl",
+      "fabrication_scale": 74.62849883428294,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "92065.stl",
+      "fabrication_scale": 2.0931264886666305,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "702421.stl",
+      "fabrication_scale": 0.7734723133962017,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "301923.stl",
+      "fabrication_scale": 0.629280020552861,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "151370.stl",
+      "fabrication_scale": 1.0106104533968594,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "118905.stl",
+      "fabrication_scale": 3.114291448050333,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "252634.stl",
+      "fabrication_scale": 78.54513061078586,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "44314.stl",
+      "fabrication_scale": 1.025795463291551,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "71768.stl",
+      "fabrication_scale": 0.49161818367227933,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "286886.stl",
+      "fabrication_scale": 1.7942128999178997,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "186199.stl",
+      "fabrication_scale": 1.0770951062460916,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "375253.stl",
+      "fabrication_scale": 2.1638242923552795,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "165846.stl",
+      "fabrication_scale": 0.39066751785056225,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "267784.stl",
+      "fabrication_scale": 0.5541258278103193,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "1458703.stl",
+      "fabrication_scale": 1.5554802515875026,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "92118.stl",
+      "fabrication_scale": 2.478701107063523,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "138193.stl",
+      "fabrication_scale": 1.0922878098167719,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "94488.stl",
+      "fabrication_scale": 0.5638984643784765,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "286158.stl",
+      "fabrication_scale": 1.461796789623684,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "814665.stl",
+      "fabrication_scale": 2.982445584519209,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "225977.stl",
+      "fabrication_scale": 0.8901388923751559,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "1458679.stl",
+      "fabrication_scale": 1.4502796582160882,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "222688.stl",
+      "fabrication_scale": 0.48112329778413887,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "735907.stl",
+      "fabrication_scale": 3.106305546756411,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "472107.stl",
+      "fabrication_scale": 0.7940743956801102,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "39463.stl",
+      "fabrication_scale": 2.6051495667368387,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "1483721.stl",
+      "fabrication_scale": 0.3538665627523348,
+      "fabrication_offset": null
+    },
+    {
+      "filename": "53125.stl",
+      "fabrication_scale": 3.801191155622952,
+      "fabrication_offset": null
+    }
+  ],
+  "meshes_A_winning_rot_vecs": null,
+  "mesh_A_opt_num_posns": 10,
+  "mesh_A_fill_soft_mask_holes": true,
+  "mesh_B_opt_num_posns": 10,
+  "mesh_B_opt_posn_trans_bounds": [
+    -0.1,
+    0.1
+  ],
+  "mesh_B_opt_use_area_proportion": true,
+  "mesh_B_opt_vtx_out_of_bounds_loss_weight": 1000.0,
+  "mesh_B_opt_iters": 100,
+  "mesh_B_opt_learning_rate": 0.05,
+  "mesh_A_pso_c1": 0.25,
+  "mesh_A_pso_c2": 0.25,
+  "mesh_A_pso_w": 0.5,
+  "mesh_A_pso_iters": 10,
+  "proj_A_pso_c1": 0.05,
+  "proj_A_pso_c2": 0.05,
+  "proj_A_pso_w": 0.5,
+  "proj_A_pso_iters": 10,
+  "pso_verbose": true,
+  "image_shape": [
+    128,
+    128
+  ],
+  "sieve_side_length": 80.0,
+  "sieve_thickness": 60.0,
+  "sieve_resolution": [
+    1024,
+    1024
+  ]
+}

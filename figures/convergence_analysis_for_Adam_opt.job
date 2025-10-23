@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#SBATCH --account=ostein_1459
+#SBATCH --partition=gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gpus-per-task=a40:1
+#SBATCH --mem=8GB
+#SBATCH --time=4:00:00
+#SBATCH --job-name=convergence_analysis_for_Adam_opt
+#SBATCH --output=convergence_analysis_for_Adam_opt.out
+
+module purge
+
+eval "$(conda shell.bash hook)"
+conda activate sieves-kaolin
+
+python /home1/jaeyoonc/sieves-kaolin/figures/convergence_analysis_for_Adam_opt.py \
+       /home1/jaeyoonc/sieves-kaolin/scripts/41729_vs_964933.json
+
+python /home1/jaeyoonc/sieves-kaolin/figures/convergence_analysis_for_Adam_opt.py \
+       /home1/jaeyoonc/sieves-kaolin/scripts/80597_vs_83229.json

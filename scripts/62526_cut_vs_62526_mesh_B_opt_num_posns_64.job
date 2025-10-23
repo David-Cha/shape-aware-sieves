@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#SBATCH --account=ostein_1459
+#SBATCH --partition=gpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gpus-per-task=a40:1
+#SBATCH --mem=16GB
+#SBATCH --time=6:00:00
+#SBATCH --job-name=62526_cut_vs_62526_mesh_B_opt_num_posns_64
+#SBATCH --output=62526_cut_vs_62526_mesh_B_opt_num_posns_64.out
+
+module purge
+
+eval "$(conda shell.bash hook)"
+conda activate sieves-kaolin
+
+python /home1/jaeyoonc/sieves-kaolin/scripts/generate_sieve.py \
+       /home1/jaeyoonc/sieves-kaolin/scripts/62526_cut_vs_62526_mesh_B_opt_num_posns_64.json \
+       /home1/jaeyoonc/sieves-kaolin/results/62526_cut_vs_62526_mesh_B_opt_num_posns_64
