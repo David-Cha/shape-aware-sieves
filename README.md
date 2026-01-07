@@ -1,10 +1,13 @@
 # Computational Design of Shape-Aware Sieves
 
+![Teaser](figures/teaser-lowres.jpg)
+
 ## About
 
 This repository provides a tool for the inverse design of sieve holes to sort arbitrary input shapes.
 
-It is the source code for the paper "Computational Design of Shape-Aware Sieves" published at SIGGRAPH Asia 2025.
+It is the source code for the paper ["Computational Design of Shape-Aware Sieves"](https://doi.org/10.1145/3757377.3763875)
+published at SIGGRAPH Asia 2025.
 
 For more details, please see the project page: https://david-cha.github.io/projects/sieves/index.html
 
@@ -124,3 +127,22 @@ This will create and save all renders to the directory `figures/{EXPERIMENT}/`.
 
 To see which figures in the paper correspond to which results, see the table at
 [`figures/results_to_figures_table.md`](figures/results_to_figures_table.md).
+
+## Citation
+
+```
+@inproceedings{cha2025sieves,
+  author = {Cha, David and Stein, Oded},
+  title = {Computational Design of Shape-Aware Sieves},
+  year = {2025},
+  isbn = {9798400721373},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3757377.3763875},
+  doi = {10.1145/3757377.3763875},
+  booktitle = {Proceedings of the SIGGRAPH Asia 2025 Conference Papers},
+  articleno = {41},
+  numpages = {11},
+  series = {SA Conference Papers '25}
+}
+```
